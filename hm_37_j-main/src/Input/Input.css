@@ -1,0 +1,32 @@
+.input_block {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    border-color: rgb(210, 160, 240);
+    background-color: rgb(86, 73, 87);
+}
+
+.input_block__label {
+    padding-right: 20px;
+}
+
+.input_block__input {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.input_block__input::placeholder {
+    color: rgb(210, 160, 240);;
+}
+
+.input_block__button {
+    font-size: 20px;
+}
+
+.input_block__error {
+    display: block;
+    color: rgb(86, 73, 87);
+    margin-top: 15px;
+    height: 10px;
+}
